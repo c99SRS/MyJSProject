@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MyJSProject</title>
+	<script src='https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js'></script> 
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+
+</head>
+<body>
+
+<h1 class="rainbow"> Filters </h1>
+<h1> Upload Display Image</h1>
+
+<div class="content">
+<canvas id="imgcan" ></canvas>
+<!--<canvas id="pcan" ></canvas> -->  
+
+<p>  
+Upload Image:<input type="file" id="fimg" multiple="false" accept="image/*" onchange="uploadImage()" >
+  
+<input type="button" value="Reset Image" id="reset" onclick="resetImage()">  
+</p>
+<p>
+  
+  <h2> Choose Filters</h2>
+<input type="button" class="clsIndianRed" value="PatternFilter" id="bfilter" onclick="applyPatternFilter()">
+  
+<input type="button" value="GreyScale" class="clsGray" id="gfilter" onclick="applyGreyFilter()"> 
+  
+<input type="button" value="Reset Filter" id="freset" onclick="resetFilterImage()">   
+  
+</p>  
+</div> 
+
+
+</body>
+</html>
+
+
+
+ 

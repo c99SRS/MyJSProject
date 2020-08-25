@@ -1,0 +1,112 @@
+body {
+  background-color:Azure;
+}
+.content{
+  text-align:center;
+  color: DarkBlue;
+  font-style:bold;
+  font-family:Verdana;
+  padding:5px;
+  background-color:WhiteSmoke;
+  #border-top-style: dotted;
+  border-bottom-style: solid;
+  border-width: 1.5px;
+  border-color:SteelBlue;
+  font-size:24;
+  top-margin: 5px;
+}
+h1 {
+  text-align: center;
+  color: #DC143C;
+  font: 50px Sans-serif;
+}
+.rainbow {
+  
+   /* Font options */
+  font-family: 'Pacifico', cursive;
+  text-shadow: 2px 2px 4px #000000;
+  font-size:40px;
+  
+   /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 5s infinite; 
+  
+  /* Internet Explorer */
+  -ms-animation: rainbow 5s infinite;
+  
+  /* Standar Syntax */
+  animation: rainbow 5s infinite; 
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+  0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+   0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+    0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+canvas{
+  height:360px;
+  border:5px solid LightSteelBlue;
+}
+#redfilter{
+  background-color:red;
+}
+#bfilter{
+  background-color:cyan;
+}
+#milter{
+  background-color:yellow;
+}
+.clsIndianRed {
+  background-color: IndianRed;
+  padding: 10px;
+  border: 1px solid grey;
+  font-weight: bold;
+border-radius: 12px;
+box-shadow: 0 5px #666;
+}
+.clsGray {
+  background-color: gray;
+  padding: 10px;
+  border: 1px solid grey;
+  font-weight: bold;
+  border-radius: 12px;
+  box-shadow: 0 5px #666;
+}
