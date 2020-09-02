@@ -38,47 +38,47 @@ h1 {
 }
 /* Chrome, Safari, Opera */
 @-webkit-keyframes rainbow{
-  0%{color: orange;}	
-  10%{color: purple;}	
-	20%{color: red;}
+  0%{color: orange;}  
+  10%{color: purple;} 
+  20%{color: red;}
   30%{color: CadetBlue;}
-	40%{color: yellow;}
+  40%{color: yellow;}
   50%{color: coral;}
-	60%{color: green;}
+  60%{color: green;}
   70%{color: cyan;}
   80%{color: DeepPink;}
   90%{color: DodgerBlue;}
-	100%{color: orange;}
+  100%{color: orange;}
 }
 
 /* Internet Explorer */
 @-ms-keyframes rainbow{
-   0%{color: orange;}	
-  10%{color: purple;}	
-	20%{color: red;}
+   0%{color: orange;} 
+  10%{color: purple;} 
+  20%{color: red;}
   30%{color: CadetBlue;}
-	40%{color: yellow;}
+  40%{color: yellow;}
   50%{color: coral;}
-	60%{color: green;}
+  60%{color: green;}
   70%{color: cyan;}
   80%{color: DeepPink;}
   90%{color: DodgerBlue;}
-	100%{color: orange;}
+  100%{color: orange;}
 }
 
 /* Standar Syntax */
 @keyframes rainbow{
-    0%{color: orange;}	
-  10%{color: purple;}	
-	20%{color: red;}
+    0%{color: orange;}  
+  10%{color: purple;} 
+  20%{color: red;}
   30%{color: CadetBlue;}
-	40%{color: yellow;}
+  40%{color: yellow;}
   50%{color: coral;}
-	60%{color: green;}
+  60%{color: green;}
   70%{color: cyan;}
   80%{color: DeepPink;}
   90%{color: DodgerBlue;}
-	100%{color: orange;}
+  100%{color: orange;}
 }
 
 canvas{
@@ -109,4 +109,44 @@ box-shadow: 0 5px #666;
   font-weight: bold;
   border-radius: 12px;
   box-shadow: 0 5px #666;
+}
+.clsRed{
+  background-color: red;
+  padding: 10px;
+  border: 1px solid grey;
+  font-weight: bold;
+  border-radius: 12px;
+  box-shadow: 0 5px #666;
+}
+
+.clsCommon {
+  background-color: wheat;
+  padding: 10px;
+  border: 1px solid grey;
+  font-weight: bold;
+  border-radius: 12px;
+  box-shadow: 0 5px #666;
+}
+
+.reset {
+  #width:500px;
+  text-align:center;
+  text-decoration-color:activecaption;
+  background-color: IndianRed;
+  padding: 20px;
+  border: 15px solid Thistle;
+}
+
+#blur{
+  transition-duration:0.45s;
+  color:black;
+  background-color : white;
+  border-radius:12px;
+  border: 2x;
+  border-color: dimgrey;
+  font-family: Comic Sans MS;
+}
+#blur:hover{
+  color:white;
+  background-color:thistle ;
 }

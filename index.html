@@ -9,8 +9,8 @@
 </head>
 <body>
 
-<h1 class="rainbow"> Filters </h1>
-<h1> Upload Display Image</h1>
+<h1 class="rainbow"> FILTERS </h1>
+<h1 > Upload Image & Click your Wand</h1>
 
 <div class="content">
 <canvas id="imgcan" ></canvas>
@@ -19,19 +19,32 @@
 <p>  
 Upload Image:<input type="file" id="fimg" multiple="false" accept="image/*" onchange="uploadImage()" >
   
-<input type="button" value="Reset Image" id="reset" onclick="resetImage()">  
+ 
 </p>
 <p>
   
   <h2> Choose Filters</h2>
 <input type="button" class="clsIndianRed" value="PatternFilter" id="bfilter" onclick="applyPatternFilter()">
   
+<input type="button" value="RedFilter" class="clsRed" id="rfilter" onclick="applyRedFilter()"> 
+
 <input type="button" value="GreyScale" class="clsGray" id="gfilter" onclick="applyGreyFilter()"> 
   
-<input type="button" value="Reset Filter" id="freset" onclick="resetFilterImage()">   
+<input type="button" value="Make Negative" 
+ class="clsCommon" onclick="doNegative()">  
+  <input type="button" value="Make Window Pane"  class="clsCommon"  onclick="doWindowpane()" >
+ 
+   <input type="button" id="blur" 
+          class="clsCommon" value="BLUR FILTER" onclick="makeBlur()"> 
   
-</p>  
-</div> 
+<input type="button" value="Rainbow Filter"  class="clsCommon"  onclick="rainbow()">
+</p> 
+     <p class = "reset">
+     <input type="button" value="Reset Image" id="reset" onclick="resetImage()"> 
+       <input type="button" value="Reset Filter" id="freset" onclick="resetFilterImage()"> 
+    </P>
+</div>  
+
 
 
 </body>
